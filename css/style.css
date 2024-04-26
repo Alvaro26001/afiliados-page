@@ -71,6 +71,7 @@ main{
 
 }
 
+
 /*CSS FOOTER*/
 footer {
     display: flex;
@@ -101,6 +102,15 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+.freidoras-top button {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    background-color:#333 ;
+    color: white;
+    border-color: #ff9900;
+    border: none;
+}
+
 
 /* Media query para cambiar a dirección de columnas en pantallas más pequeñas */
 @media (max-width: 768px) {
